@@ -1,0 +1,9 @@
+| ?- list_shift([a,b,c,d,e],L2).
+
+L2 = [b,c,d,e,a]
+
+(16 ms) yes
+| ?- list_shift([a,b,c,d,e],[b,c,d,e,a]).
+
+yes
+| ?-

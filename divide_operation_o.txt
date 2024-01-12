@@ -1,0 +1,13 @@
+| ?- list_divide([a,1,b,2,c,3,d,5,e],L1,L2).
+
+L1 = [a,b,c,d,e]
+L2 = [1,2,3,5] ?
+
+yes
+| ?- list_divide([a,b,c,d],L1,L2).
+
+L1 = [a,c]
+L2 = [b,d]
+
+yes
+| ?-

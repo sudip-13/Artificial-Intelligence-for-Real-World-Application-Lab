@@ -1,0 +1,16 @@
+| ?- list_length([a,b,c,d,e,f,g,h,i,j],Len).
+
+Len = 10
+
+yes
+| ?- list_length([],Len).
+
+Len = 0
+
+yes
+| ?- list_length([[a,b],[c,d],[e,f]],Len).
+
+Len = 3
+
+yes
+| ?-

@@ -1,0 +1,55 @@
+| ?- parent(X,jim).
+
+X = pat ? ;
+
+X = peter
+
+yes
+| ?-
+mother(X,Y).
+
+X = pam
+Y = bob ? ;
+
+X = pat
+Y = jim ? ;
+
+no
+| ?- haschild(X).
+
+X = pam ? ;
+
+X = tom ? ;
+
+X = tom ? ;
+
+X = bob ? ;
+
+X = bob ? ;
+
+X = pat ? ;
+
+X = bob ? ;
+
+X = peter
+
+yes
+| ?- sister(X,Y).
+
+X = liz
+Y = bob ? ;
+
+X = ann
+Y = pat ? ;
+
+X = ann
+Y = peter ? ;
+
+X = pat
+Y = ann ? ;
+
+X = pat
+Y = peter ? ;
+
+(16 ms) no
+| ?-

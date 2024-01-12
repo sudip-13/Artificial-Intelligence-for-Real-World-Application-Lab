@@ -1,0 +1,11 @@
+| ?- list_max_elem([8,5,3,4,7,9,6,1],Max).
+
+Max = 9 ?
+
+yes
+| ?- list_max_elem([5,12,69,112,48,4],Max).
+
+Max = 112 ?
+
+yes
+| ?-

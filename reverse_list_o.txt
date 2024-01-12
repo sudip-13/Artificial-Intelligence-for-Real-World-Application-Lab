@@ -1,0 +1,9 @@
+| ?- list_rev([a,b,c,d,e],NewList).
+
+NewList = [e,d,c,b,a]
+
+yes
+| ?- list_rev([a,b,c,d,e],[e,d,c,b,a]).
+
+yes
+| ?-

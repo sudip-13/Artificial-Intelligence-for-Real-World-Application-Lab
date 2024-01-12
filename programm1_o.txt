@@ -1,0 +1,19 @@
+| ?- happy(rohit).
+
+yes
+| ?- sing_a_song(rohit).
+
+no
+| ?- sing_a_song(ananya).
+
+yes
+| ?- playes_guitar(rohit).
+
+yes
+| ?- playes_guitar(ananya).
+
+no
+| ?- listens_to_music(ananya).
+
+yes
+| ?-

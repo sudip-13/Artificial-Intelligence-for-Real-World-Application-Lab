@@ -1,0 +1,31 @@
+| ?- list_subset([a,b],X).
+
+X = [a,b] ? ;
+
+X = [a] ? ;
+
+X = [b] ? ;
+
+X = []
+
+(15 ms) yes
+| ?- list_subset([x,y,z],X).
+
+X = [x,y,z] ? a
+
+X = [x,y]
+
+X = [x,z]
+
+X = [x]
+
+X = [y,z]
+
+X = [y]
+
+X = [z]
+
+X = []
+
+yes
+| ?-

@@ -1,0 +1,16 @@
+| ?- list_append(a,[e,i,o,u],NewList).
+
+NewList = [a,e,i,o,u]
+
+yes
+| ?- list_append(e,[e,i,o,u],NewList).
+
+NewList = [e,i,o,u]
+
+yes
+| ?- list_append([a,b],[e,i,o,u],NewList).
+
+NewList = [[a,b],e,i,o,u]
+
+yes
+| ?-

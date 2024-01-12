@@ -1,0 +1,43 @@
+| ?- uncle(X,Y).
+
+X = peter
+Y = jim ? ;
+
+no
+| ?- grandparent(X,Y).
+
+X = pam
+Y = ann ? ;
+
+X = pam
+Y = pat ? ;
+
+X = pam
+Y = peter ? ;
+
+X = tom
+Y = ann ? ;
+
+X = tom
+Y = pat ? ;
+
+X = tom
+Y = peter ? ;
+
+X = bob
+Y = jim ? ;
+
+X = bob
+Y = jim ? ;
+
+no
+| ?- wife(X,Y).
+
+X = pam
+Y = tom ? ;
+
+X = pat
+Y = peter ? ;
+
+(15 ms) no
+| ?-

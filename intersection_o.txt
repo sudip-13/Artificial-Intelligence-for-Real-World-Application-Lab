@@ -1,0 +1,11 @@
+| ?- list_intersect([a,b,c,d,e],[a,e,i,o,u],L3).
+
+L3 = [a,e] ?
+
+yes
+| ?- list_intersect([a,b,c,d,e],[],L3).
+
+L3 = []
+
+yes
+| ?-

@@ -1,0 +1,16 @@
+| ?- list_concat([1,2],[a,b,c],NewList).
+
+NewList = [1,2,a,b,c]
+
+yes
+| ?- list_concat([],[a,b,c],NewList).
+
+NewList = [a,b,c]
+
+yes
+| ?- list_concat([[1,2,3],[p,q,r]],[a,b,c],NewList).
+
+NewList = [[1,2,3],[p,q,r],a,b,c]
+
+yes
+| ?-

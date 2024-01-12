@@ -1,0 +1,39 @@
+| ?- likes(mary,elephant).
+
+yes
+| ?- likes(mary,tiger).
+
+yes
+| ?- likes(mary,python).
+
+no
+| ?- likes(mary,cobra).
+
+no
+| ?- trace
+.
+The debugger will first creep -- showing everything (trace)
+
+yes
+{trace}
+| ?- likes(mary,dog).
+   1 1 Call: likes(mary,dog) ?
+   2 2 Call: snake(dog) ?
+   2 2 Fail: snake(dog) ?
+   2 2 Call: animal(dog) ?
+   2 2 Exit: animal(dog) ?
+   1 1 Exit: likes(mary,dog) ?
+   
+yes
+{trace}
+| ?- likes(mary,python).
+   1 1 Call: likes(mary,python) ?
+   2 2 Call: snake(python) ?
+   2 2 Exit: snake(python) ?
+   3 2 Call: fail ?
+   3 2 Fail: fail ?
+   1 1 Fail: likes(mary,python) ?
+   
+no
+{trace}
+| ?-

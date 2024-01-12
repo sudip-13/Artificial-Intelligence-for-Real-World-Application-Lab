@@ -1,0 +1,17 @@
+| ?- list_member(b,[a,b,c]).
+
+true ?
+
+yes
+| ?- list_member(b,[a,[b,c]]).
+
+no
+| ?- list_member([b,c],[a,[b,c]]).
+
+true ?
+
+yes
+| ?- list_member(d,[a,b,c]).
+
+no
+| ?- list_member(d,[a,b,c]).

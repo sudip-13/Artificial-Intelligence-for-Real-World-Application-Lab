@@ -1,0 +1,16 @@
+| ?- list_delete(a,[a,e,i,o,u],NewList).
+
+NewList = [e,i,o,u] ?
+
+yes
+| ?- list_delete(a,[a],NewList).
+
+NewList = [] ?
+
+yes
+| ?- list_delete(X,[a,e,i,o,u],[a,e,o,u]).
+
+X = i ? ;
+
+no
+| ?-

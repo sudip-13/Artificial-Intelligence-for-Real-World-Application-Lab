@@ -1,0 +1,16 @@
+| ?- list_insert(a,[e,i,o,u],NewList).
+
+NewList = [a,e,i,o,u] ? a
+
+NewList = [e,a,i,o,u]
+
+NewList = [e,i,a,o,u]
+
+NewList = [e,i,o,a,u]
+
+NewList = [e,i,o,u,a]
+
+NewList = [e,i,o,u,a]
+
+(15 ms) no
+| ?-

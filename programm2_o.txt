@@ -1,0 +1,17 @@
+| ?- can_cook(X).
+
+X = priya ? ;
+
+X = jaya ? ;
+
+X = tiyasha
+
+yes
+| ?- likes(priya,X).
+
+X = jaya ? ;
+
+X = tiyasha
+
+yes
+| ?-

@@ -1,0 +1,27 @@
+| ?- gt(10,100).
+X is smaller
+
+yes
+| ?- gt(150,100).
+X is greater or equal
+
+true ?
+
+yes
+| ?- gte(10,20).
+X is smaller
+
+(15 ms) yes
+| ?- gte(100,20).
+X is greater
+
+true ?
+
+yes
+| ?- gte(100,100).
+X and Y are same
+
+true ?
+
+yes
+| ?-

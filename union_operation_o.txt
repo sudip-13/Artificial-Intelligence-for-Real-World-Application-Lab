@@ -1,0 +1,11 @@
+| ?- list_union([a,b,c,d,e],[a,e,i,o,u],L3).
+
+L3 = [b,c,d,a,e,i,o,u] ?
+
+(16 ms) yes
+
+| ?- list_union([a,b,c,d,e],[1,2],L3).
+
+L3 = [a,b,c,d,e,1,2]
+
+yes
